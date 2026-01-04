@@ -1,0 +1,4 @@
+event_name,stakeholder,entity,source,collection_method,date,text
+Example Event,Government,Ministry of Environment,https://gov.example.com,Official statement,2025-01-01,Replace this with the full government article or statement.
+Example Event,Media,BBC,https://bbc.com/example,News article,2025-01-01,Replace this with a media article or headline.
+Example Event,Public,Twitter,https://twitter.com/example,Social media post,2025-01-01,Replace this with public reactions or comments.
