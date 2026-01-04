@@ -1,4 +1,4 @@
-
+web application URL: https://finalprototypehciivfon.streamlit.app/
 label rule (used in the ui):
 - score > 0.08 → positive  
 - score < -0.08 → negative  
@@ -15,7 +15,6 @@ required columns:
 - `date` (format: `yyyy-mm-dd`)
 
 optional columns (supported but not required):
-- `entity`
 - `source`
 - `collection_method`
 
