@@ -1,0 +1,51 @@
+web application URL: https://finalprototypehciivfon.streamlit.app/
+
+label rule (used in the ui):
+- score > 0.08 → positive  
+- score < -0.08 → negative  
+- otherwise → neutral  
+
+# input formats
+you can use either:
+
+1) upload csv
+required columns:
+- `event_name`
+- `stakeholder`
+- `text`
+- `date` (format: `yyyy-mm-dd`)
+
+optional columns (supported but not required):
+- `source`
+- `collection_method`
+
+2) paste text
+fill:
+- event name
+- stakeholder
+- date
+- paste the text
+then click Add to store it.
+
+# comparison mode
+in the left panel (sidebar), switch:
+
+- **view mode → compare stakeholders**
+
+then select 2+ stakeholders from the multiselect list.
+
+the comparison view includes:
+- score cards per stakeholder
+- a diverging bar chart (negative left / positive right)
+- word clouds or text lists per stakeholder
+
+## install and run locally
+1. clone the git repo https://github.com/koko30/finalprototype.git
+2. install dependencies
+3. run streamlit
+
+example:
+
+bash
+pip install -r requirements.txt
+streamlit run app.py
